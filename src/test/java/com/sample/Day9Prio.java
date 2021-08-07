@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Day9Prio {
 
-	@Test(priority = -7)
+	@Test()
 	private void test1() {
 		System.out.println("Test1");
 	}
