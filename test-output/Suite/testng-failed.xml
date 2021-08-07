@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="6" name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.sample.Day10Parameters">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sample.Day10Parameters -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="6" name="FFTest(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="com.sample.Day10Parameters">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sample.Day10Parameters -->
+    </classes>
+  </test> <!-- FFTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
