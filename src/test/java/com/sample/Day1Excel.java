@@ -29,6 +29,8 @@ public class Day1Excel {
 		int cellType = c.getCellType();
 		System.out.println(cellType);
 		// cellType 1-->String,0-->Date,Number
+		System.out.println(cellType);
+		
 		
 
 	}
