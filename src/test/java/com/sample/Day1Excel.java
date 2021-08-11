@@ -17,6 +17,10 @@ public class Day1Excel {
 	public static void main(String[] args) throws IOException {
 		// loc of the file
 		File loc = new File("C:\\Users\\ADMIN\\eclipse-workspace\\PracticeOnline\\Input\\TestData.xlsx");
+		System.out.println("Hello");
+		System.out.println("hi");
+		System.out.println("Welcome");
+		System.out.println("Welcome to java");
 		// Read the file
 		FileInputStream fi = new FileInputStream(loc);
 		// Type of workbook
@@ -30,8 +34,6 @@ public class Day1Excel {
 		System.out.println(cellType);
 		// cellType 1-->String,0-->Date,Number
 		System.out.println(cellType);
-		
-		
 
 	}
 }
